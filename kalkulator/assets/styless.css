@@ -119,9 +119,16 @@ tr:nth-child(even) {
     padding: 5px 5px 5px 5px;
 } */
 
+.kontainer {
+    display: flex;
+}
+
 .bungkus {
-    width: 30%;
+    flex: 33.33%;
+    /* display: flex; */
+    /* width: 30%; */
     margin: 30px auto 0 auto;
+    /* overflow: scroll; */
 }
 
 .spasi {
