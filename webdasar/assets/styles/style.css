@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2,
+h3 {
+    color: #00a2c6;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+}
+
+@font-face {
+    font-family: "Dicoding Font";
+    src: url('FILE-FONT.TTF');
+}
+
+p {
+    font-family: "Dicoding Font";
+}
