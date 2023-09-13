@@ -1,4 +1,6 @@
 body {
+    display: inline;
+    flex-direction: column;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -10,13 +12,23 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    display: inline;
 }
 
 nav {
-    background-color: #444;
-    color: #fff;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    color: #444;
     text-align: center;
+    /* align-items: center; */
     padding: 10px;
+    z-index: 100;
+}
+
+ul {
+    display: flex;
+    align-items: center;
 }
 
 nav ul {
@@ -48,4 +60,10 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+.gambar {
+    display: flex;
+    align-items: start;
+    text-align: left;
 }
